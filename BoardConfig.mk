@@ -31,7 +31,7 @@ TARGET_TAP_TO_WAKE_NODE := "/dev/input/event3"
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # SELinux
-BOARD_SEPOLICY_DIRS += \
+#BOARD_SEPOLICY_DIRS += \
  $(DEVICE_PATH)/sepolicy/vendor
 
 # Inherit from the proprietary version
