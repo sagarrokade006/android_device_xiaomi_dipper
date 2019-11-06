@@ -80,6 +80,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service.xiaomi_sdm845
 
+# PocketMode	
+PRODUCT_PACKAGES += \
+    XiaomiPocketMode
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.1-service \
