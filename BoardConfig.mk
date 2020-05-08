@@ -31,7 +31,7 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # SELinux
-#BOARD_SEPOLICY_DIRS += \
+BOARD_SEPOLICY_DIRS += \
  $(DEVICE_PATH)/sepolicy/vendor
 
 # Inherit from the proprietary version
