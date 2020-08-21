@@ -11,13 +11,12 @@ $(call inherit-product, vendor/du/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
-ifeq ($(DERP_BUILD_ZIP_TYPE), GAPPS)
 IS_PHONE := true
-TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_INCLUDE_STOCK_ARCORE := true
-endif
-
+USE_GAPPS=true
+# Corvus Offical Stuff
+DU_BUILD_TYPE := OFFICIAL
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := du_dipper
