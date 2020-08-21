@@ -7,7 +7,7 @@
 $(call inherit-product, device/xiaomi/dipper/device.mk)
 
 # Inherit some common DerpFest stuff.
-$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
+$(call inherit-product, vendor/du/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
@@ -20,7 +20,7 @@ endif
 
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := derp_dipper
+PRODUCT_NAME := du_dipper
 PRODUCT_DEVICE := dipper
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 8
