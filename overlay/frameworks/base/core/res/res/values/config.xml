@@ -724,6 +724,13 @@
         <item>1</item> <!-- COLOR_MODE_BOOSTED -->
         <item>3</item> <!-- COLOR_MODE_AUTOMATIC -->
     </integer-array>
+  
+   <!-- Display mode remapping table -->
+    <string-array name="config_displayModeMappings" translatable="false">
+        <item>none:standard</item>
+        <item>hal_dci_p3:dci_p3</item>
+        <item>hal_srgb:srgb</item>
+    </string-array>
    <!-- Default state for LiveDisplay --> 
     <bool name="config_liveDisplayAvailable">true</bool>
  
