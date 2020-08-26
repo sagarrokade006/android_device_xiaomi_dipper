@@ -18,7 +18,7 @@ $(call inherit-product-if-exists, vendor/xiaomi/dipper/dipper-vendor.mk)
 
 # LiveDisplay native
 PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm845
+    vendor.lineage.livedisplay@2.0-service-sdm
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2248
