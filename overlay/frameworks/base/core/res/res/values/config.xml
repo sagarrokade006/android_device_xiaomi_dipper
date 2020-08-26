@@ -642,7 +642,7 @@
 
     <!-- Default screen brightness setting.
          Must be in the range specified by minimum and maximum. -->
-    <integer name="config_screenBrightnessSetngDefault">98</integer>
+    <integer name="config_screenBrightnessSettingDefault">98</integer>
 
     <!-- Minimum screen brightness setting allowed by the power manager.
          The user is forbidden from setting the brightness below this level. -->
@@ -696,15 +696,20 @@
         <item>1</item> <!-- COLOR_MODE_BOOSTED -->
         <item>3</item> <!-- COLOR_MODE_AUTOMATIC -->
     </integer-array>
-  
-    <!-- Default state for LiveDisplay -->
-    <bool name="config_liveDisplayAvailable">true</bool> 
- <!-- Display mode remapping table.
+
+    <!-- Display mode remapping table.
          If the mode names returned by the backend do not match
          the predefined and translated strings in the Settings
          app, they can be remapped here. The format is
          "oldname:newname", one per entry. -->
-		 
+    <integer name="config_deviceLightCapabilities">232</integer>		 
+  
+    <!-- Default state for LiveDisplay -->
+    <bool name="config_liveDisplayAvailable">true</bool>  
+   
+    <!-- Should we filter any display modes which are unampped? -->
+    <bool name="config_filterDisplayModes">true</bool>
+
     <string-array name="config_displayModeMappings" translatable="false">
         <item>38-default-OLED:standard</item>
         <item>01-warm:reading</item>
@@ -712,8 +717,4 @@
         <item>P3_CE:dci_p3</item>
         <item>srgb_d65:srgb</item>
     </string-array>
-    <!-- Filter unampped display modes -->
-    <bool name="config_filterDisplayModes">true</bool>
-    <!-- Whether device has a physical display cutout -->
-    <bool name="config_physicalDisplayCutout">true</bool>
 </resources>
