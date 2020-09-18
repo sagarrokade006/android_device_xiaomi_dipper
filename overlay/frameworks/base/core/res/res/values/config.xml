@@ -710,6 +710,9 @@
     <!-- Should we filter any display modes which are unampped? -->
     <bool name="config_filterDisplayModes">true</bool>
 
+    <!-- FPSInfoService Fps file path -->
+    <string name="config_fpsInfoSysNode" translatable="false">/sys/devices/virtual/graphics/fb0/measured_fps</string>
+
     <string-array name="config_displayModeMappings" translatable="false">
         <item>38-default-OLED:standard</item>
         <item>01-warm:reading</item>

@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/du_dipper.mk
+    $(LOCAL_DIR)/xtended_dipper.mk
 
 COMMON_LUNCH_CHOICES := \
-du_dipper-user \
-du_dipper-userdebug \
-du_dipper-eng
+xtended_dipper-user \
+xtended_dipper-userdebug \
+xtended_dipper-eng
