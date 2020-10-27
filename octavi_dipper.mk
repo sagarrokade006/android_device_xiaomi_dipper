@@ -10,13 +10,13 @@ $(call inherit-product, device/xiaomi/dipper/device.mk)
 IS_PHONE := true
 TARGET_DENSITY := xxxhdpi
 TARGET_BOOT_ANIMATION_RES := 1440
-REVENGEOS_BUILDTYPE := OFFICIAL
+#REVENGEOS_BUILDTYPE := OFFICIAL
 
 # Inherit some common RevengeOS stuff.
-$(call inherit-product, vendor/revengeos/config/common.mk)
+$(call inherit-product, vendor/octavi/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := revengeos_dipper
+PRODUCT_NAME := octavi_dipper
 PRODUCT_DEVICE := dipper
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 8

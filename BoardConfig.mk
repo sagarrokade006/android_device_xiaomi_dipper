@@ -15,7 +15,8 @@ DEVICE_PATH := device/xiaomi/dipper
 TARGET_OTA_ASSERT_DEVICE := dipper
 
 # Kernel
-TARGET_KERNEL_CONFIG :=  revenge_defconfig
+TARGET_KERNEL_CONFIG :=  dipper_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm845
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml

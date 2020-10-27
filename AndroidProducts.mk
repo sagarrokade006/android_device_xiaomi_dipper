@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_dipper.mk
+    $(LOCAL_DIR)/octavi_dipper.mk
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_dipper-user \
-    revengeos_dipper-userdebug \
-    revengeos_dipper-eng
+    octavi_dipper-user \
+    octavi_dipper-userdebug \
+    octavi_dipper-eng
